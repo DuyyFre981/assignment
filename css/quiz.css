@@ -1,0 +1,65 @@
+*{
+  font-family: cursive;
+}
+    .container{
+        background-color: #36302C;
+        color: white;
+        padding: 0 20px;
+        
+    }
+   #homepage-btn{
+      text-decoration: none;
+      color: white;
+      font-weight: bolder;
+      
+  }
+  #homepage-btn:hover{
+    background: white;
+    color: black;
+   }
+  #add-btn{
+    top: 60px;
+    position: absolute;
+    right: 50px;
+    
+  }
+
+    h1{
+        text-align: center;
+        color: yellow;
+        
+    }
+ 
+  h3{
+    color: greenyellow!important;
+  }
+  .question-content{
+    display: flex;
+  }
+  .question-content>input{
+    margin-right: 10px;
+    margin-left: 30px;
+    
+  }
+  .question-content>p{
+    margin-right: 20px;
+  }
+  .question-content>p:hover{
+    color: gold;
+  }
+  button{
+    background-color: green;
+    color: white;
+    padding: 5px;
+
+  }
+  button>a{
+    text-decoration: none;
+    color: white;
+  }
+  .btn-edit{
+    text-align: right;
+  }
+  p:last-child{
+    color: rgb(219, 106, 19);
+  }

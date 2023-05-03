@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: cursive;
+}
+
+header{
+    display: flex;
+    padding-top: 10px;
+    width: 100%;
+    background-color: #36302C;
+    box-shadow: 0 1px 1px gray;
+    color: white;
+    padding-bottom: 20px;
+    
+}
+.left-header{
+    display: flex;
+    margin-right: 20%;
+    align-items: center;
+}
+.left-header>p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+}
+#logo{
+    height: 85px;
+}
+.right-header{
+    display: flex   ;
+    align-items: center;
+}
+.right-header>input[type=text]{
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 100px;
+    background-image: url(../IMG/search.png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position:  5px 5px ;
+    border-radius: 20px;
+}
+
+.right-header>button{
+    background-color: #D6903E;
+    color: white;
+    padding:10px 30px;
+    margin-left: 30px;
+    margin-right: 50px;
+}
+#avatar{
+    height: 70px;
+    border-radius: 60px;
+    border: 3px solid black;
+    margin-left: 100px;
+}
+
+
+ul{
+    display: flex;
+    color:  black;
+}
+ul>li{
+    list-style: none;
+
+}
+ul>li>a{
+    text-decoration: none;
+    color: black;
+}
+        ul{
+            display: flex;
+            position: absolute;
+            left: 1%;
+            
+        }
+        
+        ul>li{
+            list-style: none;
+            text-decoration: none;
+            padding: 10px 20px;
+            color: white;
+            border-bottom: 1px solid white;
+            margin-right: 10px;
+            
+        }
+        ul>li:hover{
+            box-shadow: 0 5px 5px black;
+            border: 1px solid black;
+        }
+        ul>li>a{
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+        }
+
+
+        .bg{
+            width: 100%;
+            height: 500px;
+            background-image: url(../IMG/home-img/background-home.png);
+        }
+        .info{
+            text-decoration: none;
+            position: absolute;
+            top: 100px;
+            right: 20px;
+            color: greenyellow;
+           text-align: center;
+        }
+        .info>p{
+           color: white;
+        }
+        .info>a{
+            text-decoration: none;
+            color: greenyellow;
+            
+        }
+        .info>a:hover{
+            border-bottom: 1px solid greenyellow;
+        }
